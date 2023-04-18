@@ -1,12 +1,16 @@
-import { useState } from 'react';
 import './App.css'
+import Intro from './Content/Intro'
+import Layout from './Layout/Layout'
 
 function App() {
+  
 
   return (
+    <Layout>
     <div className="">
-      <div className="text-4xl text-yellow-300 font-bold">Hello World!</div>
+      <Intro/>
     </div>
+    </Layout>
   )
 }
 
