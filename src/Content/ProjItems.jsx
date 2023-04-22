@@ -2,6 +2,7 @@ import React from "react";
 import ProjPerson from "./../assets/projItem.png";
 
 export default function ProjItems() {
+  
   return (
     <div className="proj-items shadow w-1/4 flex flex-col">
       <picture className="w-full">
