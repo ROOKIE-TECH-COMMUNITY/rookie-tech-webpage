@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "./../assets/20230307_222050_0001-removebg-preview 2.svg";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -14,13 +14,40 @@ export default function Header() {
         <nav className="web hidden md:flex items-center justify-between w-8/12">
           <ul className="flex justify-evenly  w-3/4">
             <li>
-              <Link to="/about-us">About Us</Link>
+              <NavLink
+                to="/about-us"
+                className={({ isActive }) =>
+                  isActive
+                    ? " text-black font-semibold p-3 rounded-full bg-white"
+                    : "font-semibold text-black"
+                }
+              >
+                About Us
+              </NavLink>
             </li>
             <li>
-              <Link to="/our-website">Visit our Website</Link>
+              <NavLink
+                to="/our-website"
+                className={({ isActive }) =>
+                  isActive
+                    ? " text-black font-semibold p-3 rounded-full bg-white"
+                    : "font-semibold text-black"
+                }
+              >
+                Visit our Website
+              </NavLink>
             </li>
             <li>
-              <Link to="/contact-us">Contact Us</Link>
+              <NavLink
+                to="/contact-us"
+                className={({ isActive }) =>
+                  isActive
+                    ? " text-black font-semibold p-3 rounded-full bg-white"
+                    : "font-semibold text-black"
+                }
+              >
+                Contact Us
+              </NavLink>
             </li>
           </ul>
           <ul className="flex w-1/4 justify-evenly">
