@@ -6,10 +6,10 @@ function App() {
   
 
   return (
-    <Layout>
-    <div className="">
-      <Intro/>
-    </div>
+    <Layout  backgroundColor='community-primary-light' buttonType={true}>
+      <div className="">
+        <Intro/>
+      </div>
     </Layout>
   )
 }
