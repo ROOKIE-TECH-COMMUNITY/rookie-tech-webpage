@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header className="block bg-[#FFF7DF] w-full">
+    <header className="block fixed bg-[#FFF7DF] w-full">
       <div className="navigation flex w-full justify-between items-center">
         <div className="logo  pl-4">
           <Link to="/">
