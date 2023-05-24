@@ -3,15 +3,15 @@ import person from "./../assets/port1.png";
 
 export default function Profile() {
   return (
-    <div className="portfolio-items my-4 bg-[#FFF7DF] hover:bg-[#FEEFC2] justify-between p-10 flex">
-      <picture>
+    <div className="portfolio-items my-4 bg-[#FFF7DF] hover:bg-[#FEEFC2] justify-between p-10 flex flex-col lg:flex-row">
+      <picture className="lg:w-4/6">
         <img
           className="object-contain h-full w-full object-center"
           src={person}
           alt=""
         />
       </picture>
-      <div className="portfolio-details justify-evenly pr-64 ml-10 flex flex-col">
+      <div className="portfolio-details justify-evenly  ml-10 flex flex-col">
         <div className="my-3">
           <p className="font-bold text-2xl my-1">Nadia Comraderi</p>
           <hr className="w-1/2 my-1" />
@@ -19,7 +19,7 @@ export default function Profile() {
         </div>
         <div className="my-3">
           <h2 className="font-bold text-xl">Bio</h2>
-          <p className="text-start mr-20">
+          <p className="text-start lg:mr-20">
             Lorem ipsum dolor sit amet consectetur. Tincidunt tincidunt maecenas
             dictum amet posuere neque vitae sit. Id sagittis faucibus elementum
             amet. Ullamcorper pulvinar vel dui nunc tellus ante amet.

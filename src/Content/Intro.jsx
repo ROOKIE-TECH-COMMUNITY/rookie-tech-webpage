@@ -6,22 +6,22 @@ import ProjItems from "./ProjItems";
 export default function Intro() {
   return (
     <div className="block mx-10">
-      <section className="flex m-auto h-[90vh]  min-h-[80vh]">
-        <div className="h-full items-center my-auto justify-center flex">
-          <div className="p-20 w-1/2 items-start h-full flex flex-col justify-evenly">
-            <h1 className="text-4xl mb-4 font-bold ">
+      <section className="flex m-auto my-6 md:my-0  md:mt-0 md:h-[90vh]  min-h-[80vh]">
+        <div className="h-full items-center my-auto justify-center flex flex-col md:flex-row">
+          <div className="md:p-20 md:w-1/2 items-start h-full flex flex-col justify-evenly">
+            <h1 className="text-4xl text-center md:text-start mb-4 font-bold ">
               Welcome to Rookie Tech Community
             </h1>
-            <p className="mb-4">
+            <p className="mb-4 text-center md:text-start">
               We are a group of individuals who are new to the tech industry and
               are determined to carve our own paths to sucess. With support and
               guidance of eachother !
             </p>
-            <button className="bg-black mb-4 p-4 rounded-lg ml-4 text-white text-lg font-semibold">
+            <button className="bg-black mb-4 p-2 self-center md:self-start md:p-4 rounded-lg ml-4 text-white text-lg font-semibold">
               Join Our Community
             </button>
           </div>
-          <div className="advert w-1/2">
+          <div className="advert md:w-1/2">
             <picture>
               <img
                 className=" object-contain w-full h-full object-center"
@@ -34,10 +34,10 @@ export default function Intro() {
       </section>
       <section className="projects">
         <div className="proj-header mb-10 flex justify-between w-full">
-          <h2 className=" font-bold text-xl ml-[35rem] ">Our Projects</h2>{" "}
+          <h2 className=" font-bold text-xl md:ml-[35rem] ">Our Projects</h2>{" "}
           <span className=" ">see all</span>
         </div>
-        <div className="proj-body flex justify-between">
+        <div className="proj-body grid grid-cols-2 gap-4 md:flex md:justify-between">
           <ProjItems />
           <ProjItems />
           <ProjItems />

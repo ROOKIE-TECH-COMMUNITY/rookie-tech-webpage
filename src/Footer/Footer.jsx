@@ -8,7 +8,7 @@ import FooterLogo from "../assets/rookiefooterLogo.svg";
 export default function Footer() {
   return (
     <footer className="bg-[#ebb332de] min-h-[60vh]">
-      <div className="footer-body h-full items-center flex justify-between w-[83%] mt-[193px]  mx-auto py-10">
+      <div className="footer-body h-full items-center flex flex-col md:flex-row  justify-between w-[83%] mt-[193px]  mx-auto py-10">
         {/* <div className="logo-socials flex flex-col justify-between">
           <div className="logo">
             <img src={Logo} alt="" />
@@ -38,7 +38,7 @@ export default function Footer() {
             <li>Contact Us</li>
           </ul>
         </div> */}
-        <div className="social-links  ">
+        <div className="social-links  mb-20 md:mb-0 ">
           <picture>
             <img
               src={FooterLogo}

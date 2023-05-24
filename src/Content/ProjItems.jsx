@@ -4,7 +4,7 @@ import ProjPerson from "./../assets/projItem.png";
 export default function ProjItems() {
   
   return (
-    <div className="proj-items shadow w-1/4 flex flex-col">
+    <div className="proj-items shadow md:w-1/4 flex flex-col">
       <picture className="w-full">
         <img
           src={ProjPerson}
