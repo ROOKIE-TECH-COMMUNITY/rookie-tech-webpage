@@ -11,7 +11,7 @@ export default function Profile() {
           alt=""
         />
       </picture>
-      <div className="portfolio-details justify-evenly  ml-10 flex flex-col">
+      <div className="portfolio-details justify-evenly  lg:ml-10 flex flex-col">
         <div className="my-3">
           <p className="font-bold text-2xl my-1">Nadia Comraderi</p>
           <hr className="w-1/2 my-1" />
