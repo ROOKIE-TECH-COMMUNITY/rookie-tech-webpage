@@ -3,7 +3,7 @@ import person from "./../assets/port1.png";
 
 export default function Profile() {
   return (
-    <div className="portfolio-items my-4 bg-[#FFF7DF] hover:bg-[#FEEFC2] justify-between p-10 flex flex-col lg:flex-row">
+    <div className="portfolio-items my-4 bg-[#FFF7DF] hover:bg-[#FEEFC2] justify-between p-10 flex flex-col lg:flex-row cursor-pointer">
       <picture className="lg:w-4/6">
         <img
           className="object-contain h-full w-full object-center"
