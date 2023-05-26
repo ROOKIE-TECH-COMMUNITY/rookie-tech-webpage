@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Layout from "../Layout/Layout";
 import SignIn from '../Pages/SignIn'
+import SignUp from '../pages/SignUp'
 
 export const router = createBrowserRouter([
   {
@@ -40,13 +41,7 @@ export const router = createBrowserRouter([
   },
   {
     path: "/auth/signup",
-    element: (
-        <Layout>
-          <div className=" grid place-items-center h-screen">
-            <p>This is the sign up page</p>
-          </div>
-        </Layout>
-    ),
+    element: <SignUp />
   },
   {
     path: "/auth/signin",
