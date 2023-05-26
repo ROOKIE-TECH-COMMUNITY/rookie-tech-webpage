@@ -3,12 +3,12 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import PageLoad from "../context/PageLoading";
 
-export default function Layout({ children, backgroundColor, buttonType }) {
+export default function Layout({ children, backgroundColor, buttonType, footerBgColor }) {
   return (
     <PageLoad>
       <Header backgroundColor={backgroundColor} buttonType={buttonType} />
         {children}
-      <Footer/>
+      <Footer backgroundColor={footerBgColor}/>
     </PageLoad>
   );
 }

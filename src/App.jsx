@@ -6,7 +6,7 @@ function App() {
   
 
   return (
-    <Layout  backgroundColor='community-primary-light' buttonType={true}>
+    <Layout  backgroundColor='community-primary-light' buttonType={true} footerBgColor='community-primary'>
       <div className="">
         <Intro/>
       </div>

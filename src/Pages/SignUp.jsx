@@ -19,7 +19,7 @@ const SignUp = () => {
     }
 
     return (
-        <Layout buttonType={false} backgroundColor='white'>
+        <Layout buttonType={false} backgroundColor='white' footerBgColor='white'>
             <div className='container mx-auto'>
                 <div className='py-8 text-center'>
                     <h2 className='text-black text-xl md:text-2xl font-bold'>Sign Up to Rookie Tech Community</h2>

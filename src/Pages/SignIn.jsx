@@ -17,7 +17,7 @@ const SignIn = () => {
     }
 
     return (
-        <Layout backgroundColor='white' buttonType={false}>
+        <Layout backgroundColor='white' buttonType={false} footerBgColor='white'>
             <div className='container mx-auto'>
                 <div className='py-8 text-center'>
                     <h2 className='text-black text-xl md:text-2xl font-bold'>Welcome back to Rookie Tech Community</h2>

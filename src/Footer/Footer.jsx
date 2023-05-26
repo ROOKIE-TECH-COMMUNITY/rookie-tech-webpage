@@ -5,10 +5,10 @@ import Phone from "../assets/Phone";
 import Mail from "../assets/Mail";
 import FooterLogo from "../assets/rookiefooterLogo.svg";
 
-export default function Footer() {
+export default function Footer({backgroundColor}) {
   return (
-    <footer className="bg-[#ebb332de] min-h-[60vh]">
-      <div className="footer-body h-full items-center flex flex-col md:flex-row  justify-between w-[83%] mt-[193px]  mx-auto py-10">
+    <footer className={`bg-${backgroundColor} min-h-[60vh] ${backgroundColor === 'white'? 'border-t-[1px] border-slate-900': ''}`}>
+      <div className="footer-body h-full items-center flex flex-col md:flex-row  justify-between w-[83%] mt-[100px]  mx-auto py-10">
         {/* <div className="logo-socials flex flex-col justify-between">
           <div className="logo">
             <img src={Logo} alt="" />
