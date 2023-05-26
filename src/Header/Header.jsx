@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 
 export default function Header({backgroundColor, buttonType}) {
   return (
-    <header className={`block ${backgroundColor === 'white'? 'bg-white': 'bg-community-primary-light'} w-full shadow-md sticky left-0 top-0 z-50`}>
+    <header className={`block ${backgroundColor === 'white'? 'bg-white': 'bg-community-primary-light'} w-full py-2 shadow-md sticky left-0 top-0 z-50`}>
       <div className={`navigation flex w-full justify-between items-center mx-auto container`}>
         <div className="logo  pl-4">
           <Link to="/">
