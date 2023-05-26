@@ -7,7 +7,7 @@ import FooterLogo from "../assets/rookiefooterLogo.svg";
 
 export default function Footer({backgroundColor}) {
   return (
-    <footer className={`bg-${backgroundColor} min-h-[60vh] ${backgroundColor === 'white'? 'border-t-[1px] border-slate-900': ''}`}>
+    <footer className={` min-h-[60vh] ${backgroundColor === 'white'? 'border-t-[1px] border-slate-900 bg-white': 'bg-community-primary'}`}>
       <div className="footer-body h-full items-center flex flex-col md:flex-row  justify-between w-[83%] mt-[100px]  mx-auto py-10">
         {/* <div className="logo-socials flex flex-col justify-between">
           <div className="logo">
